@@ -23,36 +23,13 @@ Unlike conventional GAN-based deblurring methods, the proposed architecture comb
 - Lightweight architecture with faster convergence
 
 ---
-
 ## System Architecture
 
-```
-Blurred Image
-      │
-      ▼
-Multi-Scale Feature Extraction
-      │
-      ▼
-Downsampling
-      │
-      ▼
-Hybrid Attention Residual Blocks
-      │
-      ▼
-Depthwise Separable CNN
-      │
-      ▼
-Upsampling
-      │
-      ▼
-Generated Sharp Image
-      │
-      ▼
-PatchGAN Discriminator
-      │
-      ▼
-Loss Computation
-```
+<p align="center">
+  <img src="images/system_architecture.png" alt="System Architecture" width="900"/>
+</p>
+
+The proposed Multi-Scale GAN architecture consists of multi-scale feature extraction, downsampling, Hybrid Attention Residual (HAR) blocks, depthwise separable convolutions, upsampling, and a PatchGAN discriminator trained using adversarial, perceptual, and L1 losses.
 
 ---
 
