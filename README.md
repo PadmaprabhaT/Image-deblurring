@@ -129,33 +129,6 @@ Compared to existing DeblurGAN architectures, this work introduces
 
 ---
 
-## Project Structure
-
-```
-Image-Deblurring-Using-GAN/
-│
-├── dataset/
-├── models/
-│   ├── generator.py
-│   ├── discriminator.py
-│   └── attention.py
-│
-├── training/
-│   ├── train.py
-│   ├── test.py
-│   └── utils.py
-│
-├── notebooks/
-│   └── Image_Deblurring.ipynb
-│
-├── results/
-├── images/
-├── saved_models/
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
 ## Applications
 
 - Autonomous Vehicles
